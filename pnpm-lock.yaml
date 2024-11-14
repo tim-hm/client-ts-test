@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@nillion/client-react-hooks':
-        specifier: next
-        version: 0.2.0-rc.2
+        specifier: ^0.2.0-rc.3
+        version: 0.2.0-rc.3
       '@nillion/client-vms':
-        specifier: next
-        version: 0.2.0-rc.2
+        specifier: ^0.2.0-rc.3
+        version: 0.2.0-rc.3
       next:
         specifier: ^15.0.3
         version: 15.0.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -248,14 +248,14 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@nillion/client-react-hooks@0.2.0-rc.2':
-    resolution: {integrity: sha512-AktmhSRo1gqsBiMMTy/FkEX1SECPuY+YM9XzcmoPciaK+11QGhk9/ufAgmW9d37KFuSqhUKCtHUiimJ2CkJlZA==}
+  '@nillion/client-react-hooks@0.2.0-rc.3':
+    resolution: {integrity: sha512-AF8vcXo8ZdDee4zQwiulwd2EN+SKj84+7VN4Aysdf+VaeS969qSpRQvQ3LlI1vDWXEpqgHT4vvqMG/V56cnv6g==}
 
-  '@nillion/client-vms@0.2.0-rc.2':
-    resolution: {integrity: sha512-jN6peyF3M6iOliYdXGt5ePatvc+0j7AHPBo0uNsxq++0v6n7oTQxnBk71CgS//bEUuZXUudXquVw0jVscQli0A==}
+  '@nillion/client-vms@0.2.0-rc.3':
+    resolution: {integrity: sha512-cdwbAhfK4OBi6Fe2fYcpvEdk2nBKqBTtEPpzGqAJIeUm1DSrElkGBwdosqNphacE6AcolCmi4/UsIBdaZKv9zQ==}
 
-  '@nillion/client-wasm@0.2.0-rc.2':
-    resolution: {integrity: sha512-v9YavjAxKBhuPqGtlgQfYmROE7Bey/So1gUgsTtYiVc0Fx+rPMRoRV7yyNdSfIQl2PONYi5518ZfqpvpXdcyjg==}
+  '@nillion/client-wasm@0.2.0-rc.3':
+    resolution: {integrity: sha512-W9+c1+c802otGifiQmOsuCJAN7F5nFyhjj3wY86tOB5PfMEWbiy5CvuvlhVfIQa11/BF9O4uWpLgBY/uUPEFPg==}
 
   '@noble/curves@1.6.0':
     resolution: {integrity: sha512-TlaHRXDehJuRNR9TfZDNQ45mMEd5dwUwmicsafcIX4SsNiqnCHKjE/1alYPd/lDRVhxdhUAlv8uEhMCI5zjIJQ==}
@@ -949,9 +949,9 @@ snapshots:
   '@next/swc-win32-x64-msvc@15.0.3':
     optional: true
 
-  '@nillion/client-react-hooks@0.2.0-rc.2':
+  '@nillion/client-react-hooks@0.2.0-rc.3':
     dependencies:
-      '@nillion/client-vms': 0.2.0-rc.2
+      '@nillion/client-vms': 0.2.0-rc.3
       '@tanstack/react-query': 5.59.20(react@18.3.1)
       pino: 9.5.0
       pino-pretty: 13.0.0
@@ -963,14 +963,14 @@ snapshots:
       - debug
       - utf-8-validate
 
-  '@nillion/client-vms@0.2.0-rc.2':
+  '@nillion/client-vms@0.2.0-rc.3':
     dependencies:
       '@bufbuild/protobuf': 2.2.2
       '@connectrpc/connect': 2.0.0-rc.3(@bufbuild/protobuf@2.2.2)
       '@connectrpc/connect-web': 2.0.0-rc.3(@bufbuild/protobuf@2.2.2)(@connectrpc/connect@2.0.0-rc.3(@bufbuild/protobuf@2.2.2))
       '@cosmjs/proto-signing': 0.32.4
       '@cosmjs/stargate': 0.32.4
-      '@nillion/client-wasm': 0.2.0-rc.2
+      '@nillion/client-wasm': 0.2.0-rc.3
       '@noble/curves': 1.6.0
       '@noble/hashes': 1.5.0
       '@noble/secp256k1': 2.1.0
@@ -985,7 +985,7 @@ snapshots:
       - debug
       - utf-8-validate
 
-  '@nillion/client-wasm@0.2.0-rc.2': {}
+  '@nillion/client-wasm@0.2.0-rc.3': {}
 
   '@noble/curves@1.6.0':
     dependencies:
